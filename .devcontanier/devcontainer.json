@@ -1,0 +1,26 @@
+{
+	"name": "Azure Starter",
+	"dockerFile": "Dockerfile",
+	"settings": { 
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+				"path": "bash",
+				"icon": "star",
+				"env": {
+					"PLACEHOLDER": "place_holder"
+				}
+			}
+		},
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.cwd": "${workspaceFolder}",
+		"terminal.activateEnvironment":	true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.enabled": true,
+		"python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python",
+		"python.pythonPath": "${workspaceFolder}/env/bin/python"
+	},
+	"remoteUser": "vscode",
+	"extensions": [
+		"ms-python.python"
+	]
+}
